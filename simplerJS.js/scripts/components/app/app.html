@@ -1,0 +1,23 @@
+<div class="app">
+    <app-header></app-header>
+    <div class="app-content">
+        <!-- <h3 style="margin-bottom: 20px;" change-background="red">Framework for MVC and component based architecture</h3>
+        <h5 style="margin-bottom: 10px;">Here demo of attribute binding and modfier that changes background color</h5>
+        <h6 bind="info" style="margin-bottom: 30px;" double-click></h6>
+        <h5 style="margin-bottom: 10px;" change-background="blue">Here demo of event binding and modfier that changes
+            background color</h5>
+        <button sim-events="click:changeInfo">click me</button>
+ -->
+
+        <h4 bind="list"></h4>
+        <h5>List</h5>
+        <button sim-events="click:changeInfo">Add new item</button>
+        <ul style="margin-top:20px;">
+            <li sim-for="list"></li>
+        </ul>
+        <div sim-show="isVisible">
+            am visible
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>

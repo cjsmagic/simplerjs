@@ -1,0 +1,21 @@
+{
+  "name": "simpler",
+  "description": "A simple javascript framework for MVC",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "jsdoc libs/simpler.js -d docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cjsmagic/simpler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjsmagic/simpler/issues"
+  },
+  "homepage": "https://github.com/cjsmagic/simpler"
+}
